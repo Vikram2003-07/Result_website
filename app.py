@@ -1,8 +1,15 @@
 from flask import Flask, render_template, request
 import pandas as pd
+import os
 
 app = Flask(__name__)
-df = pd.read_excel('../semres.xlsx')  
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the full path to your Excel file
+# This assumes semres.xlsx is in the same folder as app.py
+excel_file_path = os.path.join(BASE_DIR, 'semres.xlsx')
+
+df = pd.read_excel(excel_file_path)
 
 @app.route("/", methods=["GET", "POST"])
 def index():
