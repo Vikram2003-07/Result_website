@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import pandas as pd
 
 app = Flask(__name__)
-df = pd.read_excel('semres.xlsx')  
+df = pd.read_excel('../semres.xlsx')  
 
 @app.route("/", methods=["GET", "POST"])
 def index():
