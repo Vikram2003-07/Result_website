@@ -3,7 +3,7 @@
 This website provides a user-friendly interface to display student academic results and offers the functionality to download these results as a PDF document.
 
 #Live Preview of the Website,click the link below 👇 
-![https://vikramgdnep.pythonanywhere.com](https://vikramgdnep.pythonanywhere.com)
+[https://vikramgdnep.pythonanywhere.com](https://vikramgdnep.pythonanywhere.com)
 
 
 ![image alt](https://github.com/Vikram2003-07/Result_website/blob/67d444c4c53805c525811d2d4c202b63e4c1a5c2/Screenshot%202025-05-30%20224824.png)
