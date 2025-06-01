@@ -1,6 +1,11 @@
 # Student Result Website
 
 This website provides a user-friendly interface to display student academic results and offers the functionality to download these results as a PDF document.
+#Live Preview of the Website
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-green)](https://www.yourwebsite.com)
+
+
 ![image alt](https://github.com/Vikram2003-07/Result_website/blob/67d444c4c53805c525811d2d4c202b63e4c1a5c2/Screenshot%202025-05-30%20224824.png)
 ![image alt](https://github.com/Vikram2003-07/Result_website/blob/67d444c4c53805c525811d2d4c202b63e4c1a5c2/Screenshot%202025-05-30%20224846.png)
 ## Features
