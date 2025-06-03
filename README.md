@@ -6,8 +6,10 @@ This website provides a user-friendly interface to display student academic resu
 [https://vikramgdnep.pythonanywhere.com](https://vikramgdnep.pythonanywhere.com)
 
 
-![image alt](https://github.com/Vikram2003-07/Result_website/blob/67d444c4c53805c525811d2d4c202b63e4c1a5c2/Screenshot%202025-05-30%20224824.png)
-![image alt](https://github.com/Vikram2003-07/Result_website/blob/67d444c4c53805c525811d2d4c202b63e4c1a5c2/Screenshot%202025-05-30%20224846.png)
+![image alt](https://github.com/Vikram2003-07/Result_website/blob/677cba36464c0037507ad8012d2e90a9779a8b83/Screenshot%202025-06-03%20073753.png)
+![image alt](https://github.com/Vikram2003-07/Result_website/blob/677cba36464c0037507ad8012d2e90a9779a8b83/Screenshot%202025-06-03%20074542.png)
+
+
 ## Features
 
 * **Student Details Display:** Shows student's USN and name.
