@@ -59,12 +59,11 @@
     }
 
     @media (max-width: 768px) {
-        .my-3 {
-            margin-top: 11rem !important;
-            margin-bottom: 1rem !important;
+        .my-4 {
+            margin-top: 10rem !important;
         }
         #result-content {
-            width: 100%;
+            min-width: 100%;
             padding: 0px;
         }
         .table-light > tr > th {
@@ -98,6 +97,15 @@
             margin: 10px auto; 
         }
          
+    }
+    @media (max-width: 480px) {
+        .my-4 {
+            margin-top: 12rem !important;
+        }
+        #result-content {
+            min-width: 100% !important;
+            padding: 0;
+        }
     }
     @media print {
         body {
@@ -164,7 +172,7 @@
 <body>
     <div class="container my-4">
     <div id="result-content">
-        <h5 class="text-center mb-4 fs-3">Student Name : <span class="text-primary">{{ details['Name'] }}</span></h5>
+        <h5 class="text-center mb-2 fs-3">Student Name : <span class="text-primary" style="white-space: nowrap;">{{ details['Name'] }}</span></h5>
         <h5 class="text-center mb-2 fs-3">USN : <span class="text-primary">{{ usn }}</span></h5>
 
         <div class="table-responsive table-container mt-3">
