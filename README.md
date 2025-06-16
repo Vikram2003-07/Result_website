@@ -77,4 +77,3 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 ## License
 
-(Add your license information here, e.g., MIT, Apache 2.0, etc.)
