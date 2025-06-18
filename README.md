@@ -3,6 +3,7 @@
 This website provides a user-friendly interface to display student academic results and offers the functionality to download these results as a PDF document.
 
 🔗 **Live Preview of the Website,click the link below 👇 :**
+
 [https://vikramgdnep.pythonanywhere.com](https://vikramgdnep.pythonanywhere.com)
 
 
@@ -37,7 +38,8 @@ To set up and run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Vikram2003-07/Result_website.git](https://github.com/Vikram2003-07/Result_website.git)
+    git clone https://github.com/Vikram2003-07/Result_website.git
+    
     cd Result_website
     ```
 
@@ -75,4 +77,3 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 ## License
 
-(Add your license information here, e.g., MIT, Apache 2.0, etc.)
