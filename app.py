@@ -4,7 +4,8 @@ import os
 
 app = Flask(__name__)
 
-df = pd.read_csv('semres.csv')
+# df = pd.read_csv('semres.csv')
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'semres.csv'))
 df.set_index('USN', inplace=True)
 
 @app.route("/", methods=["GET", "POST"])
