@@ -46,13 +46,13 @@ To set up and run this project locally, follow these steps:
 2.  **Create a virtual environment (recommended):**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows: `venv\Scripts\activate`
+    `.venv\Scripts\activate`
     ```
 
 3.  **Install backend dependencies (example for Flask):**
     You would typically have a `requirements.txt` file.
     ```bash
-    pip install Flask # and any other libraries your backend needs
+    pip install -r requirements.txt
     ```
     *Note: Ensure you have a mechanism to provide the `details` and `usn` data to the HTML template.*
 
