@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 app = Flask(__name__)
-    
+
 df = pd.read_csv('semres.csv')
 df.set_index('USN', inplace=True)
 
@@ -20,4 +20,4 @@ def index():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
